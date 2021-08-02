@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  /* grid-template-columns: repeat(3, 1fr); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 70%;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  padding: 30px 40px;
+}
+.img-car {
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.cards h2,
+p {
+  color: white;
+  margin-top: 20px;
+}
+.cards p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+  width: 180px;
+  font-size: 15px;
+}
+#sedans {
+  background: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+
+  border-bottom-left-radius: 10px;
+}
+#suvs {
+  background: hsl(184, 100%, 22%);
+}
+#luxuri {
+  background: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.btn {
+  text-decoration: none;
+  background: white;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.btn:hover {
+  background: none;
+  color: white;
+  border: 1px white solid;
+  transition: 300ms;
+}
+.btn-se {
+  color: hsl(31, 77%, 52%);
+}
+.btn-su {
+  color: hsl(184, 100%, 22%);
+}
+.btn-lu {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 1100px) {
+  #content {
+    position: absolute;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 1000px) {
+  #content {
+    position: absolute;
+    left: 44%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 925px) {
+  #content {
+    position: absolute;
+    left: 42%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 900px) {
+  #content {
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 852px) {
+  #content {
+    position: absolute;
+    left: 38%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 844px) {
+  #content {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+    transform: translate(-50%, -100%);
+  }
+  .cards {
+    width: 100%;
+  }
+  #sedans {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #suvs {
+  }
+
+  #luxuri {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media (max-width: 500px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 42%;
+    transform: translate(-50%, -100%);
+  }
+}
+@media (max-width: 400px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    transform: translate(-50%, -100%);
+  }
+}
+@media (max-width: 370px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 39%;
+    transform: translate(-50%, -100%);
+  }
+}
+@media (max-width: 350px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 38%;
+    transform: translate(-50%, -100%);
+  }
+}
+@media (max-width: 320px) {
+  #content {
+    position: absolute;
+    bottom: 10px;
+
+    transform: translate(-52%, -100%);
+  }
+}
+@media (max-width: 300px) {
+  #content {
+    position: absolute;
+    bottom: 10px;
+
+    transform: translate(-53%, -100%);
+  }
+}
